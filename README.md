@@ -1,9 +1,7 @@
 # golden-section-search
-![图片描述](https://github.com/superwriters/golden-section-search/blob/main/algorithm.png)
-
 
 步骤 0, 确定初始搜索区间 $[a_0, b_0]$ 和容许误差 $0 \leq \varepsilon \ll 1$. 令 $t = (\sqrt{5}-1)/2$, 计算初始试探点
-$p_0 = a_0 + (1-t)(b_0 - a_0),\quad q_0 = a_0 + t(b_0 - a_0)$及相应的函数值$\phi(p_0), \phi(q_0)$. 令 $i:=0$.
+$p_0 = a_0 + (1-t)(b_0 - a_0),\quad q_0 = a_0 + t(b_0 - a_0)$及相应的函数值 $\phi(p_0) , \phi(q_0)$. 令 $i:=0$.
 
 步骤1, 若 $\phi(p_i) \leq \phi(q_i)$, 转步骤2; 否则, 转步骤3.
 
